@@ -32,6 +32,11 @@ npm install -g claude-deepseek-hud
 claude-deepseek-hud --setup
 ```
 
+> **国内用户**如果安装失败（404），请指定官方 registry：
+> ```bash
+> npm install -g claude-deepseek-hud --registry=https://registry.npmjs.org
+> ```
+
 然后重启 Claude Code。
 
 ### 方式二：从源码安装

@@ -1,0 +1,19 @@
+# Source files (we ship compiled JS)
+src/
+commands/
+tsconfig.json
+*.ts
+
+# Dev files
+node_modules/
+.git/
+.github/
+*.md
+!README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.balance-cache.json

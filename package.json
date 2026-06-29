@@ -1,0 +1,40 @@
+{
+  "name": "claude-deepseek-hud",
+  "version": "1.0.0",
+  "description": "Claude Code statusLine HUD for DeepSeek API users — real-time cost tracking, balance display, and Reasonix-style UI",
+  "main": "dist/src/index.js",
+  "bin": {
+    "claude-deepseek-hud": "dist/src/index.js"
+  },
+  "files": [
+    "dist/src/index.js",
+    "dist/src/index.d.ts",
+    "pricing.json"
+  ],
+  "scripts": {
+    "build": "tsc && echo 'Build OK'",
+    "build:watch": "tsc --watch",
+    "start": "node dist/src/index.js",
+    "setup": "node dist/src/index.js --setup",
+    "uninstall": "node dist/commands/uninstall.js",
+    "update-pricing": "node dist/commands/update-pricing.js"
+  },
+  "keywords": [
+    "claude-code",
+    "deepseek",
+    "hud",
+    "statusline",
+    "cost-tracking",
+    "token-usage",
+    "balance"
+  ],
+  "author": "Fairy (XSDC)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}

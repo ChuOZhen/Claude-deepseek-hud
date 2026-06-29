@@ -1,0 +1,39 @@
+{
+  "_comment": "All prices are CNY (人民币) per 1M tokens. Edit this file to update pricing when DeepSeek releases new models.",
+  "_source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "_updated": "2026-06",
+  "models": {
+    "deepseek-v4-flash": {
+      "displayName": "DeepSeek V4 Flash",
+      "aliases": ["deepseek-chat", "claude-haiku-4-5", "claude-haiku-4-5-20251001"],
+      "input": 1,
+      "output": 2,
+      "cache_read": 0.02,
+      "cache_write": 0.02
+    },
+    "deepseek-v4-pro": {
+      "displayName": "DeepSeek V4 Pro",
+      "aliases": ["deepseek-reasoner", "claude-opus-4-6", "claude-sonnet-4-6"],
+      "input": 3,
+      "output": 6,
+      "cache_read": 0.025,
+      "cache_write": 0.025
+    },
+    "deepseek-r1": {
+      "displayName": "DeepSeek R1",
+      "aliases": [],
+      "input": 4,
+      "output": 16,
+      "cache_read": 1,
+      "cache_write": 4
+    }
+  },
+  "fallback": {
+    "displayName": "DeepSeek (unknown)",
+    "input": 1,
+    "output": 2,
+    "cache_read": 0.02,
+    "cache_write": 0.02
+  },
+  "currency": "CNY"
+}
